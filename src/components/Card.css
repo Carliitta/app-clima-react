@@ -1,0 +1,46 @@
+.card {
+  margin: 20px;
+  max-width: 300px;
+
+}
+
+.card-title {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  text-decoration: none;
+ 
+}
+
+
+.card-body:hover{
+  opacity: 0.8;
+  text-decoration: none;
+}
+@media only screen and (max-width: 425px) {
+  .card {
+    margin: 10px;
+    text-align: center;
+
+  }
+  .col-sm-4 ,p{
+    font-size: 15px;
+  }
+  .row{
+    width: 300px;
+
+    text-align: center;
+  }
+}

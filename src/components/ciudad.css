@@ -1,0 +1,43 @@
+.ciudad{
+   color:rgb(10, 1, 11);
+   
+  
+}
+h2{
+ font-size: 30px;
+ color:rgb(32, 4, 99)
+
+}
+.info{
+   background-color: rgba(255, 255, 255, 0.617);
+    border-radius: 5px;
+    border-style:double;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 430px;
+    padding: 10px;
+    color: rgb(6, 10, 1);
+}
+.container{
+
+   display: flex;
+   justify-content: center;
+}
+@media (max-width: 425px) {
+   .info{
+   font-size: 15px;
+   }
+   h2{
+    font-size: 20px;
+   }
+  }
+@media (max-width: 375px) {
+  .info{
+  font-size: 15px;
+  }
+  h2{
+   font-size: 20px;
+  }
+ }

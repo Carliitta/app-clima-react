@@ -1,0 +1,50 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body{
+  background: url("./img/wallpaperbetter.jpg");
+  background-size: cover;
+  font-family: cursive;
+  background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 1440px) {
+  body{
+    background: none;
+    background: linear-gradient(90deg, rgba(58,128,180,1) 0%, rgba(29,139,253,1) 49%, rgba(109,69,252,1) 100%);
+
+  }
+}
+@media screen and (max-width: 768px) {
+ .containerCards{
+  width: 720px;
+  height: 540px;
+  overflow: scroll;
+ }
+}
+@media screen and (max-width: 425px) {
+  .containerCards{
+   width: 420px;
+   height: 350px;
+   overflow: scroll;
+   
+  }
+
+ }
+ @media screen and (max-width: 375px) {
+  body{
+    background:none;
+    background:  rgba(0, 0, 255, 0.611)
+  }
+  .containerCards{
+   width: 375px;
+   height: 350px;
+   overflow: scroll;
+   
+  }
+
+ }

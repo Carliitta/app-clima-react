@@ -1,0 +1,54 @@
+#logoHenry {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.busqueda{
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+.about{
+  margin-left: 10px;
+  color: #fff;
+}
+.about:hover{
+  text-decoration: none;
+  opacity: 0.9;
+}
+.navbar-dark{
+  height: 90px;
+  display: flex;
+}
+.form{
+  display: flex;
+}
+.btn-info{
+  margin-left: 5px;
+}
+.form-control{
+  min-width: 280px;
+}
+@media only screen and (max-width: 425px) {
+  .navbar-dark{
+   width: 425px;
+   height: 120px;
+   display: block;
+
+  }
+.form{
+  margin-top: 10px;
+}
+  }
+  .form-control{
+    width: 130px;
+  }
+ 
+@media only screen and (max-width: 768px) {
+.form-control{
+  width: 200px;
+}
+.navbar-brand{
+  display: none;
+}
+}

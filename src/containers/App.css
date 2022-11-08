@@ -1,0 +1,25 @@
+/* .App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+ */
+
+ .pie{
+  display: flex;
+  justify-content: center;
+ }
+ footer{
+  position: fixed;
+  opacity: 0.5;
+  color: #fff;
+  font-size: 15px;
+ }
+ @media only screen and (max-width: 425px) {
+  footer{
+    font-size: 12px;
+  }
+}
