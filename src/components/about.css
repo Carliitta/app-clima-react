@@ -3,6 +3,10 @@ text-align: justify;
 max-width: 500px;
 color: #fff;
 }
+.by{
+  font-size: 20px;
+  color: rgb(238, 238, 185);
+}
 .contenedorAbout {
   margin-top: 10px;
   display: flex;
