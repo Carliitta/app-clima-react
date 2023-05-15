@@ -5,7 +5,8 @@ export default function SearchBar({onSearch}) {
   return (
     <form className="form" onSubmit={(e) => {
       e.preventDefault();
-      onSearch(city);
+      onSearch(city)
+      setCity("")
     }}>
       <input className="form-control"
         type="text"
